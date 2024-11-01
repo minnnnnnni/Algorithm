@@ -11,7 +11,7 @@ int main(void) {
             printf("factor\n");
         } else if (a%b==0 && b%a==b) {
             printf("multiple\n");
-        } else if (a%b) {
+        } else {
             printf("neither\n");
         }
     }
